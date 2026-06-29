@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("🚀 GitHub Actions + Docker + AWS ECR + EC2");
+    res.send("🚀 Auto Deployment");
 });
 
 app.listen(PORT, () => {
